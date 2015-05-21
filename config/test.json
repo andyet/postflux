@@ -1,0 +1,8 @@
+{
+    "db": "postgres://fritzy@localhost/fritzy",
+    "isDev": true,
+    "server": {
+        "port": 8000,
+        "host": "localhost"
+    }
+}

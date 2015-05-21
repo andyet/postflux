@@ -1,0 +1,33 @@
+{
+  "name": "postflux",
+  "version": "0.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "NODE_ENV=test lab -l"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andyet/postflux.git"
+  },
+  "author": "",
+  "license": "",
+  "bugs": {
+    "url": "https://github.com/andyet/postflux/issues"
+  },
+  "homepage": "https://github.com/andyet/postflux#readme",
+  "dependencies": {
+    "getconfig": "^2.1.0",
+    "good": "^6.1.2",
+    "good-console": "^5.0.0",
+    "hapi": "^8.4.0",
+    "joi": "^6.4.1",
+    "lout": "^6.2.2",
+    "pg": "^4.3.0",
+    "pgboom": "^0.1.0"
+  },
+  "devDependencies": {
+    "code": "^1.4.0",
+    "lab": "^5.9.0"
+  }
+}
