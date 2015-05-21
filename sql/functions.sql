@@ -4,10 +4,8 @@ DECLARE
     table_cols TEXT[];
     data_cols TEXT[];
     querybits TEXT[];
-    tblquery TEXT;
     valuerow JSON;
     textrows TEXT[];
-    textrow TEXT;
     arrayrow TEXT[];
     value TEXT;
 BEGIN
@@ -33,6 +31,7 @@ BEGIN
             EXECUTE format('ALTER TABLE %I', data->>'name') || array_to_string(querybits, ', ');
         END IF;
     END IF;
+    --insert
     FOR valuerow IN SELECT json_array_elements(data->'points')
     LOOP
         querybits = ARRAY[]::TEXT[];
