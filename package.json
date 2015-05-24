@@ -1,7 +1,7 @@
 {
   "name": "postflux",
   "version": "0.0.0",
-  "description": "",
+  "description": "Emulates the Influxdb post interface to save data in Postgres in a normalized way.",
   "main": "server.js",
   "scripts": {
     "test": "NODE_ENV=test lab -l"
@@ -11,7 +11,7 @@
     "url": "git+https://github.com/andyet/postflux.git"
   },
   "author": "",
-  "license": "",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/andyet/postflux/issues"
   },
